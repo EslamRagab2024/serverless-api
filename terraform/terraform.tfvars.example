@@ -1,0 +1,7 @@
+aws_region        = "eu-west-1"
+project_name      = "records-api"
+environment       = "dev"
+enable_api_cache  = false # true adds an hourly-billed cache cluster
+waf_rate_limit    = 1000
+blocked_countries = []    # e.g. ["RU", "KP"]
+alarm_email       = ""    # e.g. "you@example.com"
