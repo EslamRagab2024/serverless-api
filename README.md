@@ -47,7 +47,7 @@ All calls need the header `Authorization: <Cognito ID token>`.
 ```
 .
 ├── README.md
-├── archi/        # architecture diagram (.drawio and .jpg)
+├── archi/        # architecture diagram  .jpg
 └── terraform/    # all infrastructure code (Lambda code is embedded in lambda.tf)
 ```
 
